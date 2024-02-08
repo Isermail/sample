@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/697d1e8ad6a7268273c13.jpg')
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'Shareus.com'))
 STREAM_API = (environ.get('STREAM_API', 'UIbcxZvwP3TJl6oHOFETKIUHMdo2'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/openlink_movierequest/5'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/kanhaiya_me'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1720819569 5095952765').split()]
