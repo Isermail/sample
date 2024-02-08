@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/697d1e8ad6a
 CODE = (environ.get('CODE', 'https://telegra.ph/file/697d1e8ad6a7268273c13.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'Shareus.io'))
-STREAM_API = (environ.get('STREAM_API', '0HlsB9yWcCSZPiTE9xe2xL9GvkQ2'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'Shareus.com'))
+STREAM_API = (environ.get('STREAM_API', 'UIbcxZvwP3TJl6oHOFETKIUHMdo2'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/kanhaiya_me'))
 
 # Admins, Channels & Users
@@ -56,8 +56,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0HlsB9yWcCSZPiTE9xe2xL9GvkQ2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Shareus.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'UIbcxZvwP3TJl6oHOFETKIUHMdo2')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
