@@ -220,7 +220,10 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """ 
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ 📂 <i><a href="https://telegram.me/movierulzking">{file_name}</a></i>\n\n"""
+    CAPTION = """ 📂 {file_name}
+♻️Sɪᴢᴇ » {file_size}
+★━━━━━━━━━━━━━━━━━━━★
+🌟𝐉𝐎𝐈𝐍 ➳⃝⃝🇮🇳 @Movie_Request_Group_InHD"""
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
